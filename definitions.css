@@ -1,0 +1,270 @@
+/* BEGIN ROBOTO NORMAL FONT DEFINITIONS */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* END ROBOTO NORMAL FONT DEFINITIONS */
+
+/* BEGIN ROBOTO CONDENSED FONT DEFINITIONS */
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("fonts/Roboto Condensed/RobotoCondensed-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* END ROBOTO CONDENSED FONT DEFINITIONS */
+
+/* BEGIN ROBOTO MONO FONT DEFINITIONS */
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("fonts/Roboto Mono/RobotoMono-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* END ROBOTO MONO FONT DEFINITIONS */
+
+/* BEGIN ROBOTO SLAB FONT DEFINITIONS */
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("fonts/Roboto Slab/RobotoSlab-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("fonts/Roboto Slab/RobotoSlab-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("fonts/Roboto Slab/RobotoSlab-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("fonts/Roboto Slab/RobotoSlab-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* END ROBOTO SLAB FONT DEFINITIONS */
+
+/* BEGIN MATERIAL ICONS DEFINITIONS */
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Material Icons"),
+    local("MaterialIcons-Regular"),
+    url("../font/material-design-icon/MaterialIcons-Regular.woff2") format("woff2"),
+    url("../font/material-design-icons/MaterialIcons-Regular.woff") format("woff"),
+    url("../font/material-design-icons/MaterialIcons-Regular.ttf") format("truetype"),
+    url("../font/material-design-icons/MaterialIcons-Regular.svg") format("svg");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* END MATERIAL ICONS DEFINITIONS */
