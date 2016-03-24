@@ -20,6 +20,32 @@
   list-style-type: circle;
 }
 
-html {
-  font-family: "Roboto";
+nav.top-nav {
+  height: 122px;
+  box-shadow: none;
+  font-size: 48px;
+  line-height: 122px;
+}
+
+#front-page-logo {
+  display: inline-block;
+  height: 100%;
+  pointer-events: none;
+}
+
+#logo-container {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+header, main, footer {
+  padding-left: 240px; }
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0; }
+ }
+
+.profile {
+  margin-top: 1rem;
 }
