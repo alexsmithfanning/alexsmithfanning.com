@@ -31,11 +31,13 @@ nav.top-nav {
   display: inline-block;
   height: 100%;
   pointer-events: none;
+  margin-left: 45px
 }
 
 #logo-container {
   margin-bottom: 16px;
   margin-top: 16px;
+  pointer-events: none;
 }
 
 header, main, footer {
