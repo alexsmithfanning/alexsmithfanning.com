@@ -16,10 +16,6 @@
  *
  */
 
-.license {
-  list-style-type: circle;
-}
-
 nav.top-nav {
   height: 122px;
   box-shadow: none;
@@ -41,18 +37,95 @@ nav.top-nav {
 }
 
 header, main, footer {
-  padding-left: 240px; }
+  padding-left: 240px;
+}
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   header, main, footer {
-    padding-left: 0; }
- }
+    padding-left: 0;
+  }
+}
 
 .profile {
   margin-top: 1.1rem;
 }
 
 .custom-mobile {
-    margin-top: 2rem;
-    margin-right: 1em;
+  margin-top: 2rem;
+  margin-right: 1em;
 }
+
+ul.license-list {
+  margin-left: 5em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+ul li.license-list {
+  list-style-type: inherit;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+ol li.license-list {
+  list-style-type: inherit;
+  padding-top: 0.5em;
+  padding-top: 0.5em
+}
+
+ol.license-list {
+  margin-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+/* label color */
+ .input-field label {
+   color: #9e9e9e;
+ }
+
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #8bc34a;
+ }
+
+ .input-field input[type=email]:focus + label {
+   color: #8bc34a;
+ }
+
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #8bc34a;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ .input-field input[type=email]:focus {
+   border-bottom: 1px solid #8bc34a;
+   box-shadow: 0 1px 0 0 #000;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #4caf50 ;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ .input-field input[type=email].valid {
+   border-bottom: 1px solid #4caf50 ;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #f44336;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ .input-field input[type=email].invalid {
+   border-bottom: 1px solid #f44336;
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #000;
+ }

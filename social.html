@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Alex Smith-Fanning &#8212; Social</title>
+
+  <!-- Declare that the document's character set is UTF-8 -->
+  <meta charset="utf-8" />
+
+  <!-- Import materialize.css -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" />
+
+  <!-- Import icon font definitions -->
+  <link type="text/css" rel="stylesheet" href="css/definitions.css" />
+
+  <!-- Import the actual stylesheet for other stylings -->
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Import jQuery because literally everything uses it -->
+  <script type="text/javascript" src="javascript/jquery.js"></script>
+
+  <!-- Import the Materialize JavaScript so ripples and other things work -->
+  <script type="text/javascript" src="javascript/materialize.js"></script>
+
+  <!-- Import my JavaScript code to prevent cluttering everything up with scripts -->
+  <script type="text/javascript" src="javascript/script.js"></script>
+
+  <!-- Import the GitHub button code since they don't give us an actual link -->
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+  <!-- Tells the web engine where to look for the favicon -->
+  <link rel="icon" href="images/favicon.png" sizes="32x32" />
+
+  <!-- Colors the statusbar in Android Lollipop or higher within Chrome -->
+  <meta name="theme-color" content="#455a64" />
+</head>
+
+<body>
+  <header>
+    <!-- Makes the entire top of the page have the title text and background color padding -->
+    <nav class="top-nav blue-grey">
+        <div class="container"><a href="#" data-activates="mobile-navigation" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only custom-mobile"><i class="material-icons">menu</i></a></div>
+      <div class="container">
+        <div class="nav-wrapper"><a class="page-title">Social</a></div>
+      </div>
+    </nav>
+    <ul id="mobile-navigation" class="side-nav fixed">
+      <!-- Logo used inside of the fixed navbar, always using an SVG image -->
+      <li class="logo">
+        <a id="logo-container" href="index.html" class="brand-logo">
+          <object class="circle" id="front-page-logo" type="image/svg+xml" data="images/profile.svg">Your browser does not support SVG</object>
+        </a>
+      </li>
+      <!-- List for the fixed navbar, with Material Icons for each item -->
+      <li class="bold"><a href="index.html" class="waves-effect"><i class="material-icons small left profile">home</i>Home</a></li>
+      <li class="bold"><a href="about.html" class="waves-effect"><i class="material-icons small left profile">info</i>About</a></li>
+      <li class="bold"><a href="skills.html" class="waves-effect"><i class="material-icons small left profile">assessment</i>Skills</a></li>
+      <li class="bold active"><a href="social.html" class="waves-effect"><i class="material-icons small left profile">group</i>Social</a></li>
+      <li class="bold"><a href="license.html" class="waves-effect"><i class="material-icons small left profile">library_books</i>License</a></li>
+    </ul>
+  </header>
+  <!-- Main body text that is enclosed with the <main> tag to give it appropriate padding -->
+  <main>
+  </main>
+  <!-- Footer info, including colors and separate section definitions -->
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Biography</h5>
+          <p class="grey-text text-lighten-4">I am a fifteen year old computer enthusiast specializing in graphic design, web design, Linux, Android, and a whole host of other things that invlove doing stuff with computers.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="github-button" href="https://github.com/alexsmithfanning" data-style="mega" data-count-href="/alexsmithfanning/followers" data-count-api="/users/alexsmithfanning#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @alexsmithfanning on GitHub">Follow @alexsmithfanning</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; 2016 Alex Smith-Fanning
+        <a class="grey-text text-lighten-4 right" href="license.html">GNU General Public License</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

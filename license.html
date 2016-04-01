@@ -10,7 +10,7 @@
   <!-- Import materialize.css -->
   <link type="text/css" rel="stylesheet" href="css/materialize.css" />
 
-  <!-- Import my custom Roboto font definitions -->
+  <!-- Import icon font definitions -->
   <link type="text/css" rel="stylesheet" href="css/definitions.css" />
 
   <!-- Import the actual stylesheet for other stylings -->
@@ -31,29 +31,22 @@
   <!-- Import the GitHub button code since they don't give us an actual link -->
   <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
-  <!-- Import Google+ button code since they don't give us an actual link -->
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-  <!-- Defines the link to what page the Google+ button points to -->
-  <link rel="canonical" href="https://plus.google.com/+AlexSmithFanning" />
-
   <!-- Tells the web engine where to look for the favicon -->
   <link rel="icon" href="images/favicon.png" sizes="32x32" />
 
   <!-- Colors the statusbar in Android Lollipop or higher within Chrome -->
   <meta name="theme-color" content="#455a64" />
-
 </head>
 
 <body>
   <header>
     <!-- Makes the entire top of the page have the title text and background color padding -->
     <nav class="top-nav blue-grey">
+      <div class="container"><a href="#" data-activates="mobile-navigation" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only custom-mobile"><i class="material-icons">menu</i></a></div>
       <div class="container">
         <div class="nav-wrapper"><a class="page-title">License</a></div>
       </div>
     </nav>
-    <div class="container"><a href="#" data-activates="mobile-navigation" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
     <ul id="mobile-navigation" class="side-nav fixed">
       <!-- Logo used inside of the fixed navbar, always using an SVG image -->
       <li class="logo">
@@ -65,7 +58,8 @@
       <li class="bold"><a href="index.html" class="waves-effect"><i class="material-icons small left profile">home</i>Home</a></li>
       <li class="bold"><a href="about.html" class="waves-effect"><i class="material-icons small left profile">info</i>About</a></li>
       <li class="bold"><a href="skills.html" class="waves-effect"><i class="material-icons small left profile">assessment</i>Skills</a></li>
-      <li class="bold"><a href="social.html" class="waves-effect"><i class="material-icons small left profile">question_answer</i>Social</a></li>
+      <li class="bold"><a href="social.html" class="waves-effect"><i class="material-icons small left profile">group</i>Social</a></li>
+      <li class="bold"><a href="contact.html" class="waves-effect"><i class="material-icons small left profile">send</i>Contact</a></li>
       <li class="bold active"><a href="license.html" class="waves-effect"><i class="material-icons small left profile">library_books</i>License</a></li>
     </ul>
   </header>
@@ -79,7 +73,8 @@
 
       <p><strong><dfn>Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.</dfn></strong></p>
 
-<h3>Preamble</h3>
+      <h3>Preamble</h3>
+
 
       <p>The GNU General Public License is a free, copyleft license for software and other kinds of works.</p>
 
@@ -109,11 +104,11 @@
       <p>Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents
         applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.</p>
 
-          <p>The precise terms and conditions for copying, distribution and modification follow.</p></div>
+      <p>The precise terms and conditions for copying, distribution and modification follow.</p>
 
-      <h3>TERMS AND CONDITIONS</h3>
+      <h3>Terms &amp; conditions</h3>
 
-      <h4>0. Definitions.</h4>
+      <h4>Definitions</h4>
 
       <p>&ldquo;This License&rdquo; refers to version 3 of the GNU General Public License.</p>
 
@@ -135,7 +130,7 @@
         warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu,
         a prominent item in the list meets this criterion.</p>
 
-      <h4>1. Source Code.</h4>
+      <h4>Source code</h4>
 
       <p>The &ldquo;source code&rdquo; for a work means the preferred form of the work for making modifications to it. &ldquo;Object code&rdquo; means any non-source form of a work.</p>
 
@@ -155,7 +150,7 @@
 
       <p>The Corresponding Source for a work in source code form is that same work.</p>
 
-      <h4>2. Basic Permissions.</h4>
+      <h4>Basic permissions</h4>
 
       <p>All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The
         output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.</p>
@@ -166,7 +161,7 @@
 
       <p>Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary.</p>
 
-      <h4>3. Protecting Users' Legal Rights From Anti-Circumvention Law.</h4>
+      <h4>Protecting users' legal rights from anti-circumvention law</h4>
 
       <p>No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention
         of such measures.</p>
@@ -174,14 +169,14 @@
       <p>When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any
         intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.</p>
 
-      <h4>4. Conveying Verbatim Copies.</h4>
+      <h4>Conveying verbatim copies</h4>
 
       <p>You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License
         and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.</p>
 
       <p>You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.</p>
 
-      <h4>5. Conveying Modified Source Versions.</h4>
+      <h4>Conveying modified source versions</h4>
 
       <p>You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:</p>
 
@@ -200,26 +195,29 @@
         medium, is called an &ldquo;aggregate&rdquo; if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit. Inclusion of a covered work in an
         aggregate does not cause this License to apply to the other parts of the aggregate.</p>
 
-      <h4>6. Conveying Non-Source Forms.</h4>
+      <h4>Conveying non-source forms</h4>
 
       <p>You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:</p>
-      <ul>
-        <li>Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.</li>
 
-        <li>Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that
+      <ul class="browser-default license-list">
+        <li class="license-list">Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.</li>
+
+        <li class="license-list">Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that
           product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange,
           for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.</li>
 
-        <li>Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in
+        <li class="license-list">Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in
           accord with subsection 6b.</li>
 
-        <li>Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to
+        <li class="license-list">Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to
           copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities,
           provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed
           to satisfy these requirements.</li>
 
-        <li>e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d.</li>
+        <li class="license-list">Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d.</li>
+
       </ul>
+
       <p>A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.</p>
 
       <p>A &ldquo;User Product&rdquo; is either (1) a &ldquo;consumer product&rdquo;, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a
@@ -240,7 +238,7 @@
       <p>Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special
         password or key for unpacking, reading or copying.</p>
 
-      <h4><a name="section7"></a>7. Additional Terms.</h4>
+      <h4>Additional terms</h4>
 
       <p>&ldquo;Additional permissions&rdquo; are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were
         included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by
@@ -251,19 +249,21 @@
 
       <p>Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:</p>
 
-      <ol>
-        <li>Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or</li>
+      <ol class="license-list">
 
-        <li>Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or</li>
+        <li class="license-list">Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or</li>
 
-        <li>Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or</li>
+        <li class="license-list">Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or</li>
 
-        <li>Limiting the use for publicity purposes of names of licensors or authors of the material; or</li>
+        <li class="license-list">Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or</li>
 
-        <li>Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or</li>
+        <li class="license-list">Limiting the use for publicity purposes of names of licensors or authors of the material; or</li>
 
-        <li>Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions
+        <li class="license-list">Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or</li>
+
+        <li class="license-list">Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions
           directly impose on those licensors and authors.</li>
+
       </ol>
 
       <p>All other non-permissive additional terms are considered &ldquo;further restrictions&rdquo; within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along
@@ -274,7 +274,7 @@
 
       <p>Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.</p>
 
-      <h4><a name="section8"></a>8. Termination.</h4>
+      <h4>Termination</h4>
 
       <p>You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses
         granted under the third paragraph of section 11).</p>
@@ -288,13 +288,13 @@
       <p>Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive
         new licenses for the same material under section 10.</p>
 
-      <h4><a name="section9"></a>9. Acceptance Not Required for Having Copies.</h4>
+      <h4>Acceptance not required for having copies</h4>
 
       <p>You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require
         acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you
         indicate your acceptance of this License to do so.</p>
 
-      <h4><a name="section10"></a>10. Automatic Licensing of Downstream Recipients.</h4>
+      <h4>Automatic licensing of downstream recipients</h4>
 
       <p>Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with
         this License.</p>
@@ -306,7 +306,7 @@
       <p>You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you
         may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.</p>
 
-      <h4><a name="section11"></a>11. Patents.</h4>
+      <h4>Patents</h4>
 
       <p>A &ldquo;contributor&rdquo; is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor's &ldquo;contributor version&rdquo;.</p>
 
@@ -336,20 +336,20 @@
 
       <p>Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.</p>
 
-      <h4><a name="section12"></a>12. No Surrender of Others' Freedom.</h4>
+      <h4>No Surrender of others' freedom</h4>
 
       <p>If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously
         your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you
         convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.</p>
 
-      <h4><a name="section13"></a>13. Use with the GNU Affero General Public License.</h4>
+      <h4>Use with the GNU Affero General Public License</h4>
 
       <p>Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work.
         The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as
         such.
       </p>
 
-      <h4><a name="section14"></a>14. Revised Versions of this License.</h4>
+      <h4>Revised versions of this license</h4>
 
       <p>The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.</p>
 
@@ -362,26 +362,47 @@
 
       <p>Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.</p>
 
-      <h4><a name="section15"></a>15. Disclaimer of Warranty.</h4>
+      <h4>Disclaimer of warranty</h4>
 
-      <p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &ldquo;AS IS&rdquo; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
-        OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME
-        THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
+      <p>There is no warranty for the program, to the extent permitted by applicable law. Except when otherwise stated in writing the copyright holders and/or other parties provide the program &ldquo;as is&rdquo; <strong>without warranty of any kind</strong>,
+        either expressed or implied, including, but not limited to, <strong>the implied warranties of merchantability and fitness for a particular purpose</strong>. The entire risk as to the quality and performance of the program is with you. Should the
+        program prove defective, you assume the cost of all necessary servicing, repair or correction.</p>
 
-      <h4><a name="section16"></a>16. Limitation of Liability.</h4>
+      <h4>Limitation of liability</h4>
 
-      <p>IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL
-        OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH
-        ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+      <p>In no event unless required by applicable law or agreed to in writing will any copyright holder, or any other party who modifies and/or conveys the program as permitted above, be liable to you for damages, including any general, special, incidental
+        or consequential damages arising out of the use or inability to use the program (including but not limited to loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the program to operate with
+        any other programs), even if such holder or other party has been advised of the possibility of such damages.</p>
 
-      <h4><a name="section17"></a>17. Interpretation of Sections 15 and 16.</h4>
+      <h4>Interpretation of sections 15 and 16</h4>
 
       <p>If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability
         in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.</p>
-
-      <p>END OF TERMS AND CONDITIONS</p>
-      </div>
+    </div>
   </main>
+  <!-- Footer info, including colors and separate section definitions -->
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Biography</h5>
+          <p class="grey-text text-lighten-4">I am a fifteen year old computer enthusiast specializing in graphic design, web design, Linux, Android, and a whole host of other things that invlove doing stuff with computers.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="github-button" href="https://github.com/alexsmithfanning" data-style="mega" data-count-href="/alexsmithfanning/followers" data-count-api="/users/alexsmithfanning#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @alexsmithfanning on GitHub">Follow @alexsmithfanning</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; 2016 Alex Smith-Fanning
+        <a class="grey-text text-lighten-4 right" href="license.html">GNU General Public License</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
