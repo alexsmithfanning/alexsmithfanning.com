@@ -56,9 +56,7 @@ header, main, footer {
 }
 
 ul.license-list {
-  margin-left: 5em;
-  padding-top: 0.5em;
-  padding-bottom: 1em;
+  margin-left: 2em;
 }
 
 ul li.license-list {
@@ -69,12 +67,11 @@ ul li.license-list {
 
 ol li.license-list {
   list-style-type: inherit;
-  padding-top: 0.5em;
-  padding-top: 0.5em
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
 }
 
 ol.license-list {
-  margin-left: 2em;
   padding-top: 0.5em;
   padding-bottom: 1em;
 }
@@ -132,9 +129,19 @@ ol.license-list {
  }
 
  .welcome-text-large {
-   padding-top: 100px;
+   padding-top: 200px;
  }
 
  .welcome-text-small {
-   padding-bottom: 100px;
+   padding-bottom: 200px;
  }
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }

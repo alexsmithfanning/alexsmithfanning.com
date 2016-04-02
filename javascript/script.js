@@ -8,11 +8,11 @@
  *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -33,33 +33,19 @@ $(document).ready(function() {
   }
 }(document, 'script', 'twitter-wjs');
 
+// Used for identifying ScrollFire classes
+var options = [{
+  selector: '.welcome-text-large',
+  offset: 200,
+  callback: 'globalFunction()'
+}, {
+  selector: '.welcome-text-small',
+  offset: 200,
+  callback: 'globalFunction()'
+}, ];
+Materialize.scrollFire(options);
+
+// Gets the document prepared for ScrollSpy
 $(document).ready(function() {
-  $('.slider').slider({
-    full_width: true,
-    indicators: false,
-  });
+  $('.scrollspy').scrollSpy();
 });
-
-// Pause slider
-$('.slider').slider('pause');
-// Start slider
-$('.slider').slider('start');
-// Next slide
-$('.slider').slider('next');
-// Previous slide
-$('.slider').slider('prev');
-
-$(document).ready(function() {
-  $('.carousel').carousel({
-    dist: -50,
-    padding: 0,
-    height: 500,
-  });
-});
-
-// Next slide
-$('.carousel').carousel('next');
-$('.carousel').carousel('next', [3]); // Move next n times.
-// Previous slide
-$('.carousel').carousel('prev');
-$('.carousel').carousel('prev', [4]); // Move prev n times.
