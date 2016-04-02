@@ -22,4 +22,44 @@ $(document).ready(function() {
 });
 
 // This is for the Twitter button
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+! function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    p = /^http:/.test(d.location) ? 'http' : 'https';
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = p + '://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }
+}(document, 'script', 'twitter-wjs');
+
+$(document).ready(function() {
+  $('.slider').slider({
+    full_width: true,
+    indicators: false,
+  });
+});
+
+// Pause slider
+$('.slider').slider('pause');
+// Start slider
+$('.slider').slider('start');
+// Next slide
+$('.slider').slider('next');
+// Previous slide
+$('.slider').slider('prev');
+
+$(document).ready(function() {
+  $('.carousel').carousel({
+    dist: -50,
+    padding: 0,
+    height: 500,
+  });
+});
+
+// Next slide
+$('.carousel').carousel('next');
+$('.carousel').carousel('next', [3]); // Move next n times.
+// Previous slide
+$('.carousel').carousel('prev');
+$('.carousel').carousel('prev', [4]); // Move prev n times.

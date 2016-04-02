@@ -32,7 +32,7 @@ nav.top-nav {
 
 #logo-container {
   margin-bottom: 32px;
-  margin-top: 16px;
+  margin-top: 32px;
   pointer-events: none;
 }
 
@@ -103,6 +103,7 @@ ol.license-list {
    border-bottom: 1px solid #8bc34a;
    box-shadow: 0 1px 0 0 #000;
  }
+
  /* valid color */
  .input-field input[type=text].valid {
    border-bottom: 1px solid #4caf50 ;
@@ -128,4 +129,12 @@ ol.license-list {
  /* icon prefix focus color */
  .input-field .prefix.active {
    color: #000;
+ }
+
+ .welcome-text-large {
+   padding-top: 100px;
+ }
+
+ .welcome-text-small {
+   padding-bottom: 100px;
  }
