@@ -42,7 +42,9 @@
   <header>
     <!-- Makes the entire top of the page have the title text and background color padding -->
     <nav class="top-nav blue-grey">
-      <div class="container"><a href="#" data-activates="mobile-navigation" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only custom-mobile"><i class="material-icons">menu</i></a></div>
+      <div class="container">
+        <a href="#" data-activates="mobile-navigation" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only custom-mobile"><i class="material-icons">menu</i></a>
+      </div>
       <div class="container">
         <div class="nav-wrapper"><a class="page-title">Home</a></div>
       </div>
@@ -69,8 +71,25 @@
   <!-- Main body text that is enclosed with the <main> tag to give it appropriate padding -->
   <main>
     <div class="container">
-      <h2 class="center-align welcome-text-large">Welcome to my website.</h2>
-      <h5 class="center-align welcome-text-small">My name is Alex Smith-Fanning. I'm a computer hobbyist, technology guru, and Google fanatic.</h5>
+      <div class="card">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
+            markup to use effectively.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a class="active" href="#aag-information">Information</a></li>
+            <li class="tab"><a href="#aag-pictures">Pictures</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="aag-information">Information</div>
+          <div id="aag-pictures">
+            <img class="responsive-img materialboxed" src="images/aag_code.png">
+            <img class="responsive-img materialboxed" src="images/aag_terminal.png">
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   <!-- Footer info, including colors and separate section definitions -->
@@ -79,7 +98,8 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Biography</h5>
-          <p class="grey-text text-lighten-4">I am a fifteen year old computer enthusiast specializing in graphic design, web design, Linux, Android, and a whole host of other things that invlove doing stuff with computers.</p>
+          <p class="grey-text text-lighten-4">I am a fifteen year old computer enthusiast specializing in graphic design, web design, Linux, Android, and a whole
+            host of other things that invlove doing stuff with computers.</p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Connect</h5>
@@ -88,7 +108,8 @@
               <a href="https://twitter.com/smith464_ASF" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @smith464_ASF</a>
             </li>
             <li>
-              <a class="github-button" href="https://github.com/alexsmithfanning" data-style="mega" data-count-href="/alexsmithfanning/followers" data-count-api="/users/alexsmithfanning#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @alexsmithfanning on GitHub">Follow @alexsmithfanning</a>
+              <a class="github-button" href="https://github.com/alexsmithfanning" data-style="mega" data-count-href="/alexsmithfanning/followers"
+                data-count-api="/users/alexsmithfanning#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @alexsmithfanning on GitHub">Follow @alexsmithfanning</a>
             </li>
           </ul>
         </div>
