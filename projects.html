@@ -72,24 +72,59 @@
   <main>
     <div class="container">
       <div class="card">
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-            markup to use effectively.</p>
-        </div>
-        <div class="card-tabs">
-          <ul class="tabs tabs-fixed-width">
-            <li class="tab"><a class="active" href="#aag-information">Information</a></li>
-            <li class="tab"><a href="#aag-pictures">Pictures</a></li>
-          </ul>
-        </div>
-        <div class="card-content grey lighten-4">
-          <div id="aag-information">Information</div>
-          <div id="aag-pictures">
-            <img class="responsive-img materialboxed" src="images/aag_code.png">
-            <img class="responsive-img materialboxed" src="images/aag_terminal.png">
-          </div>
-        </div>
-      </div>
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/complicated_banner.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Twenty Time Project<i class="material-icons right">more_vert</i></span>
+      <p>They say you don't understand something enough if you can't fully explain it to somebody... But I don't even think Google themselves know what they've gotten themselves into.</p>
+      <p class="right-align"><a href="https://github.com/alexsmithfanning/android-drawable-generator" target="_blank">Project On GitHub</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">The "It's Complicated" Project<i class="material-icons right">close</i></span>
+      <p><b>March 23<sup>rd</sup>, 2017</b></p>
+      <p>So dubbed for now as <i>It's Complicated</i>, due to the difficulty in explaining exactly what the product does without using two separate paragraphs of text.</p>
+      <h5>So what <i>does</i> it do?</h5>
+      <p>Basically it generates Android assets for use later on by an app. It intelligently resizes and configures everything on its own so developers don't have to worry about it. It also improves performance by a decent amount because it eliminates the need to generate assets on the fly as per the normal method. It does this by generating assets for many screen sizes simultaneously, which has the side effect of increasing app size by about fifteen percent.</p>
+      <h5>Should I as a normal user care?</h5>
+      <p>Nope! The only reason this project exists is for developers. It serves no purpose to the general public. The only way you could tell it was there was if it wasn't doing its job correctly.</p>
+      <h5>I'm a developer; can you give me more details?</h5>
+      <p>I can indeed! Normally the <code>/res</code> folder holds all the important information such as styles and drawables. Without my generator, you'd have to use Android's XML SVG format which sometimes isn't feasible. Generating everything in <code>.png</code> requires the long, laborious task of using Android Studio to convert drawable into the right sizes individually. With the generator though, it takes a standard SVG (or optionally a directory containing SVGs) and automatically exports them for the needed screen sizes. Although unlike the conventional Android Studio method, it can generate assets for many more screen sizes than normally possible by using XML tricks to avoid on-the-fly generation of assets at all.</p>
+      <p>If we go even more in depth, basically all the generator exists to do is wrap around other programs and give them a simpler, more collaborative interface. One of the biggest programs being used, <code>inkscape</code>, is a SVG editor with a GUI by day, and a powerhouse manipulation tool with a magnificent command line interface by night. Another main component is <code>optipng</code>, which does exactly what it says it does. It uses various compression tricks to reduce the size of lossless <code>.png</code> images without losing any quality. The program calls <code>inkscape</code> to render the <code>.png</code> files for many different screen sizes, and you can pass an option to my generator to also optimize the resulting assets with <code>optipng</code>.</p>
+      <p>Android's visual assets are stored in <code>/res/drawable/</code> within the source code and compiled versions of the application. There's also DPI specifc folders for drawables within the <code>/res</code> folder: <code>drawable-xxxhdpi</code>, <code>drawable-xxhdpi</code>, <code>drawable-xhdpi</code>, <code>drawable-hdpi</code>, <code>drawable-mdpi</code>, and <code>drawable-ldpi</code>. DPI specifc drawables are never usually scalable, and are not generated on-the-fly. This makes them much faster to render, but much more difficult to get right as it can't be corrected in code without it looking terrible. These are the key to my generator. It takes what would normally be in <code>/res/drawable/</code> as a scalable <code>.xml</code> and instead renders it with the specific DPI options as a non-scalable lossless <code>.png</code> image.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/3d_printed_tanks.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">3D Print Project<i class="material-icons right">more_vert</i></span>
+      <p>"I'm afraid I can't do that, Alex."</p>
+      <p>Dealing with an Ultimaker is like dealing with an in-law that doesn't like you.</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">3D Print Project<i class="material-icons right">close</i></span>
+      <p><b>April 2017</b></p>
+      <p>I attempted to create a tank... Unfortunately I didn't get the chance to take a picture of the final product, just the in-between steps where I'm horribly failing to scale it correctly.</p>
+      <p>The end result was great, it just took like three hours of constant picking at the thing to get it to look right.</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/laser_project.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Laser Engraving Project<i class="material-icons right">more_vert</i></span>
+      <p>A perfect example of what happens when a corporation attempts to lock you to their proprietary software and hardware, without an alternative method of doing said task.</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Laser Engraving Project<i class="material-icons right">close</i></span>
+      <p><b>April 2017</b></p>
+      <p>I wanted to emboss my personal emblem onto my ThinkPad and my phone case, but it never ended up working out, because CorelDRAW is steaming pile of... something, and Inkscape refused to interface with the printer.</p>
+      <p>I got it to finally somewhat work on a piece of cardboard, which somebody took before I could take a picture of it. I still don't know where it is.</p>
+    </div>
+  </div>
     </div>
   </main>
   <!-- Footer info, including colors and separate section definitions -->
